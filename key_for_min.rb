@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   if name_hash == []
     return nil
   end
-  
+
   name_hash.each {|key, value|
     if min == [] || value < min[1]
       min[0] = key
